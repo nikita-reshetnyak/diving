@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/diving/static/css/main.d7531470.css",
+    "main.js": "/diving/static/js/main.fb83e8a1.js",
+    "static/media/img3.jpg": "/diving/static/media/img3.7f5b3dcf873c72e3e132.jpg",
+    "static/media/img2.jpg": "/diving/static/media/img2.0b7fcc1cace773e1d7ed.jpg",
+    "static/media/img1.jpg": "/diving/static/media/img1.c2c1b0ea046a4d3277f0.jpg",
+    "static/media/img6.jpg": "/diving/static/media/img6.de8e7fa0b1d0e16a85ea.jpg",
+    "static/media/img5.jpg": "/diving/static/media/img5.56336f6cab95c4dc9386.jpg",
+    "static/media/img4.jpg": "/diving/static/media/img4.59a5ee2b96876735269e.jpg",
+    "static/media/background1.jpg": "/diving/static/media/background1.45ecd1bda01b61be81fd.jpg",
+    "static/media/img7.jpg": "/diving/static/media/img7.b86c3cc156f732ff3ce0.jpg",
+    "static/media/bg2.webp": "/diving/static/media/bg2.bb7ca26bb9351001af97.webp",
+    "static/media/img13.jpg": "/diving/static/media/img13.b69db6db454f646d6813.jpg",
+    "static/media/img8.jpg": "/diving/static/media/img8.0a19fcb3f0473e5ff777.jpg",
+    "static/media/img9.jpg": "/diving/static/media/img9.a244dbec8993951b1f95.jpg",
+    "static/media/img15.jpg": "/diving/static/media/img15.e5650f5a70055177f7fb.jpg",
+    "static/media/img10.jpg": "/diving/static/media/img10.f6e7ac1a20f55b0e5732.jpg",
+    "static/media/img14.jpg": "/diving/static/media/img14.0090f5185754b7780e75.jpg",
+    "static/media/img12.jpg": "/diving/static/media/img12.0d8db8e638c94682d67f.jpg",
+    "static/media/img16.jpg": "/diving/static/media/img16.48b5bd0b4265c229ca77.jpg",
+    "static/media/img11.jpg": "/diving/static/media/img11.f117a7a16bf89b94acf1.jpg",
+    "static/media/logo.jpg": "/diving/static/media/logo.888e5287c9c3cfc9f9c5.jpg",
+    "static/media/whatsup.svg": "/diving/static/media/whatsup.202a5bbf98298b6a0c2c4b46f368fa56.svg",
+    "static/media/inst.svg": "/diving/static/media/inst.4bf80dc39432c1d9c45db326011ac85d.svg",
+    "index.html": "/diving/index.html",
+    "static/media/menu-burger.svg": "/diving/static/media/menu-burger.4920f7f40663efd61944dbaa0a310f4b.svg",
+    "static/media/arrow-left.svg": "/diving/static/media/arrow-left.e718ab3d9977e33eaa1d891ca60a4c83.svg",
+    "static/media/arrow-right.svg": "/diving/static/media/arrow-right.ad49298eb563cd0ee3324c2adce53bf9.svg",
+    "main.d7531470.css.map": "/diving/static/css/main.d7531470.css.map",
+    "main.fb83e8a1.js.map": "/diving/static/js/main.fb83e8a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7531470.css",
+    "static/js/main.fb83e8a1.js"
+  ]
+}
