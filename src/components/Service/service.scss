@@ -12,6 +12,33 @@
     &__text-block {
         color: #fff;
     }
+
+    &__price-block {
+        background-color: #fff;
+        border-radius: 12px;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        margin: 20px auto 0px;
+        padding: 10px;
+
+    }
+
+    &__price-block-item {
+        &:first-child{
+            border-right: 1px solid #333;
+            padding: 0px 10px 0px 0px;
+        }
+        &:last-child{
+          
+            padding: 0px 0px 0px 10px;
+        }
+      
+    }
 }
 
 .bg-holder {
