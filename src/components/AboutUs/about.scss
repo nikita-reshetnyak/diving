@@ -1,0 +1,43 @@
+.about-section {
+    &__about {
+        background-color: #fff;
+    }
+    &__text{
+        .main-title{
+            span{
+                font-weight: 500;
+            }
+        }
+    }
+    
+    &__text-block {
+        padding-bottom: 40px;
+    }
+    &__images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__image{
+        padding: 0px 5px;
+        flex: 1 1 33.333%;
+        align-self: stretch;
+        max-height: 300px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+@media screen and (max-width:623px) {
+    .about-section{
+        &__image{
+            flex: 1 0 100%;
+            padding: 5px 0px;
+        }
+    }
+    
+}

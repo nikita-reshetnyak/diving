@@ -1,0 +1,35 @@
+.main {
+   padding: 0px;
+
+    &_background {
+        background-image: url('../../images/images/background1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__block {
+        
+        text-align: center;
+
+    }
+
+    &__title {
+        text-align: center;
+        color: #fff;
+        font-size: 48px;
+
+
+    }
+
+}
+
+.container {
+    
+    &_main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

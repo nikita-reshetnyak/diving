@@ -1,0 +1,25 @@
+.service-section {
+    text-align: center;
+
+    .color-white {
+        color: #fff;
+    }
+
+
+    &__descr {}
+
+
+    &__text-block {
+        color: #fff;
+    }
+}
+
+.bg-holder {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/images/bg2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0px;
+
+
+}

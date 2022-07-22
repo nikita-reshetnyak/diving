@@ -1,0 +1,35 @@
+.section{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+}
+.content{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    flex: 1 1 auto;
+    margin: 0px auto;
+    padding: 0px 15px;
+   
+}
+.main-title{
+    font-family: 'Roboto',sans-serif;
+    font-size: 39px;
+    font-weight: 300;
+    color: #565656;
+}
+.text-block{
+    padding: 20px 10px 0px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #737373;
+}

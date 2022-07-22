@@ -1,0 +1,107 @@
+.navbar {
+    background-color: #fff;
+    transition: all 0.3s ease;
+
+    width: 100%;
+    top: 0;
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        flex: 1;
+
+
+        .navbar-logo {
+            max-width: 100px;
+            max-height: 100px;
+            padding: 5px;
+        }
+
+    }
+
+    &__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex: 2;
+
+    }
+
+    &__item-list {
+        padding: 0px 20px;
+
+    }
+
+    &__link {
+        font-family: 'Roboto';
+        color: #565656;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+}
+
+@media screen and (max-width:770px) {
+    .navbar {
+        &__item-list {
+            padding: 0px 0px 12px 0px;
+            flex: 0 1 33.333%;
+            text-align: center;
+
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6) {
+                padding: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:530px) {
+    .navbar {
+        &__nav {
+            flex-direction: column;
+        }
+
+        .navbar-logo {
+            margin-bottom: 5px
+        }
+
+        &__item-list {
+            padding: 10px 0px 0px 0px;
+
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6) {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:433px) {
+    .navbar {
+        
+        &__items {
+            flex-direction: column;
+        }
+
+        &__item-list {
+            padding: 0px 0px 10px 0px;
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6) {
+                padding: 0px 0px 10px 0px;
+            }
+        
+        }
+
+        &__link {
+            font-size: 18px;
+        }
+    }
+
+}
